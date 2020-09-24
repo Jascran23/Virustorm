@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+#background{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    background-color: #50bf66;
+    background-image: url('../imagens/tiled.png');
+}
+
+.layout{
+    margin: 20px auto;
+    width: 900px;
+    height: 95%;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 8px black;
+}
+
+.header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 40px;
+    width: 100%;
+    height: 230px;
+    background-image: url('../imagens/virus-titulo.png');
+    background-size: cover;
+    background-position: center 420px;
+    background-attachment: fixed;
+}
+
+
+.barra-1{
+    width: 100%;
+    height: 100px;
+    background-color: #CECECE;
+    background-image: linear-gradient(to bottom, #CECECE,rgb(48, 48, 48));
+}
+
+.espaco{
+    z-index: 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 70px;
+    width: 100%;
+    height: 420px;
+    
+    /*background*/
+   background-image: url('../imagens/fundo-back.png');
+   background-size: cover;
+   background-position: center;
+
+    
+}
+.opac1{
+    opacity: 0.5;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background-image: linear-gradient(to top, black,#1A1D4A);
+    
+    width: 100%;
+    height: 100%;
+}
+
+.quadro{
+    z-index: 1;
+    margin: 0 auto;
+    border: 2px solid white;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    background-image: url('../imagens/virus-titulo.png');
+    background-repeat: no-repeat;
+}
+
+.barra-2{
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    color: white;
+    background-color: #3bb4c7;
+    background-image: linear-gradient(to bottom, #3bb4c7,#17474e);
+}
+
+
+#botao:hover {
+    opacity: 1;
+    background-image: linear-gradient(to bottom, #2076af,#59FF9A);
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 47px;
+    width: 120px;
+    padding:10px 30px;
+    border-radius: 80px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px black;    
+}
+
+#botao {
+    opacity: 0.9;
+    background-image: linear-gradient(to bottom, #2076af,#59FF9A);
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 47px;
+    width: 110px;
+    padding:8px 25px;
+    border-radius: 80px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px black;    
+}
+
+
+
+
